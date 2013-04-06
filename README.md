@@ -1,9 +1,9 @@
 Tally
 =====
 
-**Tally your feature space!**
+*Tally your feature space.*
 
-The `tally` module is handy for tallying selections of tabular data.  It provides a quick and dirty approach to defining [feature vectors](http://en.wikipedia.org/wiki/Statistical_classification#Feature_vectors) and tallying observed value combinations. I've found useful for generating simple summary reports of data tables and in the context of [simple classification tasks](http://nltk.org/book/ch06.html).
+The `tally` module is handy for tallying selections of tabular data.  It provides a quick and dirty approach to defining [feature vectors](http://en.wikipedia.org/wiki/Statistical_classification#Feature_vectors) and tallying observed value combinations. I've found useful for producing quick summary reports of data tables.  It's also useful in the context of [simple classification tasks](http://nltk.org/book/ch06.html).
 
 I recommend using it in conjunction with [dsv](https://github.com/mbostock/dsv)
 if you need to parse CSV/TSV files. 
