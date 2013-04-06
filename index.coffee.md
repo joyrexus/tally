@@ -1,7 +1,7 @@
 Tally
 =====
 
-The `tally` module is handy for tallying selections of tabular data.
+The **tally** module is handy for tallying selections of tabular data.
 
 In what follows, keep the following in mind:
 

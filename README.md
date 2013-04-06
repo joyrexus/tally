@@ -3,12 +3,12 @@ Tally
 
 *Tally your feature space.*
 
-The `tally` module is handy for tallying selections of tabular data.  It provides a quick and dirty approach to defining [feature vectors](http://en.wikipedia.org/wiki/Statistical_classification#Feature_vectors) and tallying observed value combinations. I've found useful for producing quick summary reports of data tables.  It's also useful in the context of [simple classification tasks](http://nltk.org/book/ch06.html).
+The **tally** module is handy for tallying selections of tabular data.  It provides a quick and dirty approach to defining [feature vectors](http://en.wikipedia.org/wiki/Statistical_classification#Feature_vectors) and tallying observed value combinations. I've found useful for producing quick summary reports of data tables.  It's also useful in the context of [simple classification tasks](http://nltk.org/book/ch06.html).
 
 I recommend using it in conjunction with [dsv](https://github.com/mbostock/dsv)
 if you need to parse CSV/TSV files. 
   
-Note that `tally` is minimalist by design, intended for quick counting of
+Note that **tally** is minimalist by design, intended for quick counting of
 smaller data tables.  For larger datasets and more flexible querying, you're going to want to use a dedicated datastore or something like [crossfilter](https://github.com/square/crossfilter).
 
 Just so we're clear on terminology in what follows ...
@@ -18,7 +18,7 @@ Just so we're clear on terminology in what follows ...
 * a *sample space* is like a table (or some subset of columns from the table)
 
 
-The `tally` module provides two main classes: **Feature** and **FeatureSpace**.
+The **tally** module provides two main classes: **Feature** and **FeatureSpace**.
 
 The **Feature** class is used to name a scalar variable and tally its observed values.  It's just a simple counter.  You can think of it as one *dimension* of a
 "feature space" or one "column" of a data table.
